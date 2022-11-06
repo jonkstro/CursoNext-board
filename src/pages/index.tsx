@@ -1,4 +1,5 @@
 
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import styles from '../styles/styles.module.scss';
 
@@ -29,4 +30,19 @@ export default function Home() {
       </main>
     </>
   )
+}
+
+// criar função para trazer os apoiadores do projeto, para deixar o site mais performático
+export const getStaticProps: GetStaticProps = async () => {
+
+
+
+
+
+  return {
+    props: {
+
+    },
+    revalidate: 60*60 // atualizar a cada 60 minutos
+  }
 }

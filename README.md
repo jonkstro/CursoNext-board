@@ -25,3 +25,19 @@
 * Criar componente Board
 
 ## Usando autenticação com NextAuth
+* npm install next-auth
+
+## Redirecionando usuários não logados
+
+## Adicionando o Firebase
+* digitar: `npm install firebase@8.9`
+
+## Adicionando formatação de datas
+* digitar: `npm install date-fns`
+
+
+ATÉ ULTIMO PUSH:
+Projeto consegue realizar autenticação pelo GitHub.
+Projeto consegue cadastrar dados no Firebase.
+Projeto consegue listar dados no Firebase.
+Projeto parado na aula 20 - aos 10 minutos.
